@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+}
+.main-page {
+  height: 100vh;
+  background-color: #ffffff;
+  background-image: url("img/title1.jpg");
+  background-size: cover;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+header {
+  height: 80px;
+}
+@font-face {
+  font-family: logo;
+  src: url("fonts/alsscrp.ttf");
+}
+.logo {
+  font-family: logo;
+  font-size: 3em;
+}
+.content-area-1 {
+  height: calc(100vh - 80px);
+}
+@font-face {
+  font-family: logo1;
+  src: url("fonts/BrockScript.ttf");
+}
+.ha {
+  font-family: logo1;
+}
+.story {
+  height: 100vh;
+  background-color: #ffffff;
+}
+.img-box {
+  height: 100%;
+  background-color: aqua;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.i-1 {
+  background-image: url("img/i-1.jpg");
+  background-size: cover;
+}
+.i-2 {
+  background-image: url("img/i-2.jpg");
+  background-size: cover;
+}
+.end-page {
+  height: 100vh;
+  background-color: #ffffff;
+}
+.img-1 {
+  height: 100%;
+  background-color: aqua;
+}
